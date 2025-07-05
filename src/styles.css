@@ -4,7 +4,6 @@
 }
 
 body {
-  background: #333;
   color: hsl(200, 74%, 82%);
   max-width: 500px;
   padding: 1rem;
@@ -37,6 +36,8 @@ body {
 .btn:hover,
 .btn:focus-visible {
   background: hsla(200, 90%, 45%, 0.2);
+  transform: translateY(-3px) ;
+
 }
 
 .btn.btn-danger {
@@ -157,4 +158,5 @@ label{
   padding: 50px;
   height: 700px;
   border-radius:40px ;
+  background: #333;
 }
